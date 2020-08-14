@@ -1,0 +1,144 @@
+.navbtn:hover {
+  background: none;
+  color: black;
+}
+
+.types h1,
+.benefits h1,
+.testimonials h1,
+.pricing h1 {
+  font-size: 2.5rem;
+  font-weight: 400;
+}
+
+.types p,
+.jumbotext,
+.benefits p,
+.pricing p {
+  font-size: 1.1rem;
+  width: 75%;
+  margin: auto;
+}
+
+.benefits p {
+  width: 65%;
+}
+
+.cardscont {
+  margin: auto;
+}
+
+.cardscont > div:first-child {
+  margin-bottom: 2rem;
+}
+
+.cardimg {
+  height: 15rem;
+  object-fit: cover;
+}
+
+.btnbenefits {
+  background: rgb(143, 29, 204);
+  border: rgb(143, 29, 204);
+}
+
+.btnbenefits:hover {
+  background: rgb(129, 24, 186);
+  border: rgb(129, 24, 186);
+}
+
+.mainimg {
+  width: 80%;
+  height: 20rem;
+  margin-left: 10%;
+  object-fit: cover;
+}
+
+.person {
+  width: 3.2rem;
+  height: 3.2rem;
+  object-fit: cover;
+}
+
+.testicard {
+  border: none;
+}
+
+.pricing .row {
+  width: 75%;
+  margin: auto;
+}
+
+.pricing .card {
+  max-width: 400px;
+  margin: auto;
+}
+.pricing .features {
+  max-width: 400px;
+  margin: auto;
+}
+
+.price-left {
+  font-size: 3rem;
+  position: relative;
+}
+
+.price-left > span {
+  position: absolute;
+  font-size: 1rem;
+  top: 0;
+  left: calc(40% - 2rem);
+}
+
+.price-right p {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.text-uncheck {
+  opacity: 0.3;
+}
+
+.features {
+  transform: translateX(25%);
+}
+
+.footermenu ul {
+  padding-left: 0;
+}
+
+.footermenu li {
+  list-style: none;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+@media only screen and (max-width: 991px) {
+  .footerleft {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .icons {
+    margin-bottom: 3rem;
+  }
+
+  .footermenu {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .person {
+    position: relative;
+    left: 1rem;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .pricingheader {
+    width: 90% !important;
+  }
+}
